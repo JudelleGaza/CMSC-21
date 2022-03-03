@@ -6,9 +6,8 @@ int main(void)      //Indicates that the function main returns an integer value 
     //DECLARATION: Declaring variables to type int
     int num1, denom1, num2, denom2, result_num, result_denom; 
     
-    /*printf function to ask user to enter a fraction,
-     the scanf function to scan user input
-     assigns the input to variables num1 and denom1*/
+    /*printf function asks user to enter a fraction,
+      the scanf function scans user input and assigns the input to variables num1 and denom1*/
     printf("Enter first fraction: ");
     scanf("%d/%d", &num1, &denom1);
 
@@ -18,7 +17,7 @@ int main(void)      //Indicates that the function main returns an integer value 
     scanf("%d/%d", &num2, &denom2);
 
     /*result_num and result_denom stores the result numerator
-    and result denominator from the followring operations respectively*/
+    and result denominator from the following operations respectively*/
     result_num = num1 * denom2 + num2 * denom1;
     result_denom = denom1 * denom2;
 
