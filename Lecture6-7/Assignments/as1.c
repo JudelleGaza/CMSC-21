@@ -16,7 +16,7 @@ void NetworkNavigation(int currentpoint, int network[ARRAY][ARRAY], char station
         printf("Now at point ");
         NetworkNavigation(2, network, stations);}
 
-    /* If network[currentpoint][3] is == 1, then the user is at a direct path to Charging Station C */  
+    /* If network[currentpoint][3] is == 1, then the user is at a direct path to Charging Station D */  
     else if (network[currentpoint][3]){
         printf("Now at point ");
         NetworkNavigation(3, network, stations);}
