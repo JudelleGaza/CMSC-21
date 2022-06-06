@@ -46,7 +46,8 @@ void main(){
     printf("Enter (x2,y2) for point 2 [ex. 3 3]: ");
     scanf("%f %f", &linepoint.point2.x, &linepoint.point2.y);
 
-    // Prints the output and calls each function
+    /* Calls each function and stores resulting values into the variables in the structure
+       Prints the output */
     printf("===================================================\n");
     printf("Slope: %g", solveSlope(linepoint));
     linepoint.midpoint = solveMidpoint(linepoint);
